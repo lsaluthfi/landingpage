@@ -1,2 +1,0 @@
-# landingpage
-Tugas Landing Page
