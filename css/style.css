@@ -45,3 +45,67 @@ header.navbar-container .nav-list li a{
     border-radius: 999px;
     transition: all 0.2s ease-in-out;
 }
+
+header.navbar-container .nav-list li:hover a{
+    background: color #425c77;
+    color: white;
+}
+
+main{
+    max-width: 1200px;
+    width: 100%;
+    margin-inline: auto;
+    padding: 2rem 4rem;
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+}
+
+main .content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+main .content .content-description .title {
+    font-size: 3.5rem;
+    margin-block: 1rem;
+}
+
+main .content .content-description p{
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+}
+
+main .content .content-description button {
+    padding: 0.8rem 2.5rem;
+    margin-block-start: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    border: 3px solid transparent;
+    border-radius: 999px;
+    background-color: #2d3e50;
+    cursor: pointer;
+    transition:all 0.15s ease-in;    
+}
+
+main .content .content-description button:hover{
+    border: 3px solid #2d3e50;
+    color: #2d3e50;
+    background-color: transparent;
+}
+
+main .content .content-image {
+    flex: 1;
+    display: flex;
+}
+
+main .content .content-image img {
+    margin: auto;
+    min-width: 250px;
+    width: 350px;
+}
